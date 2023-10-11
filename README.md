@@ -100,7 +100,7 @@ import (
 	"strings"
 	"sync"
 
-	"localhost/xcpdir"
+	"github.com/ai-takeuchi/xcpdir"
 )
 
 func init() {
