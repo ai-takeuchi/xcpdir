@@ -11,7 +11,7 @@ The `xcpdir` package is a Go library that provides functionality for copying and
 You can install the `xcpdir` package by using Go modules. Add the following import statement to your Go code to use this package:
 
 ```go
-import "github.com/your-import-path/xcpdir"
+import "github.com/ai-takeuchi/xcpdir"
 ```
 
 ## Usage
@@ -30,8 +30,8 @@ args := xcpdir.Args(
     modified, // only copy modified files
     link,     // manage symbolic links
     ignore,   // ignore errors
-	backup:   // copy the modified files to the trash path before copying
-	sync:     // if the source does not exist, move the destination file to the trash path
+    backup:   // copy the modified files to the trash path before copying
+    sync:     // if the source does not exist, move the destination file to the trash path
 )
 ```
 
